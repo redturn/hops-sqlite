@@ -1,0 +1,34 @@
+{
+  "name": "sqlite-mapper",
+  "version": "0.1.0",
+  "description": "A simple Sqlite DataMapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redturn/node-sqlite-mapper"
+  },
+  "keywords": [
+    "sqlite",
+    "datamapper"
+  ],
+  "author": "Brian Mancini <bmancini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redturn/node-sqlite-mapper/issues"
+  },
+  "homepage": "https://github.com/redturn/node-sqlite-mapper",
+  "dependencies": {
+    "q": "^1.1.2",
+    "sqlite3": "^3.0.4"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4",
+    "mocha": "^2.0.1"
+  }
+}
