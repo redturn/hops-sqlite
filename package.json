@@ -1,5 +1,5 @@
 {
-  "name": "sqlite-mapper",
+  "name": "hops-sqlite",
   "version": "0.1.0",
   "description": "A simple Sqlite DataMapper",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/redturn/node-sqlite-mapper"
+    "url": "https://github.com/redturn/hops-sqlite"
   },
   "keywords": [
     "sqlite",
@@ -16,10 +16,6 @@
   ],
   "author": "Brian Mancini <bmancini@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/redturn/node-sqlite-mapper/issues"
-  },
-  "homepage": "https://github.com/redturn/node-sqlite-mapper",
   "dependencies": {
     "q": "^1.1.2",
     "sqlite3": "^3.0.4"
