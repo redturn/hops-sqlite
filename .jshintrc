@@ -1,0 +1,7 @@
+{
+  "node": true,
+  "enforceall": true,
+  "laxcomma": true,
+  "quotmark": "single",
+  "curly": false
+}

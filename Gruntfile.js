@@ -5,23 +5,16 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     jshint: {
+      options: {
+        'jshintrc': true
+      },
       grunt: {
-        options: {
-          'laxcomma': true
-        },
         src: [ 'Gruntfile.js' ]
       },
       lib: {
-        options: {
-          'laxcomma': true
-        },
         src: [ 'lib/**/*.js' ]
       },
       test: {
-        options: {
-          'laxcomma': true,
-          'expr': true
-        },
         src: [ 'test/**/*.js' ]
       }
     },
